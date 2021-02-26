@@ -9,6 +9,10 @@ on:
     branches: master
     paths-ignore:
       - "docs/**"
+  workflow_dispatch:
+    branches: master
+    paths-ignore:
+      - "docs/**"
 
 jobs:
   build:
